@@ -7,9 +7,9 @@ RUN addgroup -g 1234 minecraft
 RUN adduser -D -h /data -u 1234 -G minecraft -g "minecraft user" minecraft
 
 RUN mkdir /tmp/minecraft && cd /tmp/minecraft && \
-	wget --quiet -c ${SERVER_ZIP} -O PO3-3.4.10.zip && \
-	unzip -q PO3-3.4.10.zip && \
-	rm PO3-3.4.10.zip && \
+	wget --quiet -c ${SERVER_ZIP} -O PO3+-+3.4.10server.zip && \
+	unzip -q PO3+-+3.4.10server.zip && \
+	rm PO3+-+3.4.10server.zip && \
 	chown -R minecraft /tmp/minecraft
 
 USER minecraft
