@@ -25,7 +25,7 @@ WORKDIR /data
 
 ENV MOTD "Dit is mn shit auwoeue"
 ENV LEVEL world
-ENV OPS Jenqemm
+ENV OPS applefreak_111
 ENV JVM_OPTS -Xms4G -Xmx12G
 
 CMD /start
